@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="pantallaDepositoEnEfectivo" prefHeight="722.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Depositoenefectivo">
+   <children>
+      <AnchorPane prefHeight="722.0" prefWidth="1000.0">
+         <children>
+            <ImageView fitHeight="722.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Fondos/Deposito%20en%20efectivo.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="numero_uno" layoutX="421.0" layoutY="249.0" maxHeight="62.0" maxWidth="62.0" minHeight="62.0" minWidth="62.0" mnemonicParsing="false" onAction="#tecladoNumerico" prefHeight="62.0" prefWidth="62.0">
+               <graphic>
+                  <ImageView fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../ImageButtons/Numeros%20y%20Abecedario/1.png" />
+                     </image>
+                     <effect>
+                        <DropShadow>
+                           <color>
+                              <Color opacity="0.7260869741439819" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="numero_dos" layoutX="492.0" layoutY="249.0" maxHeight="62.0" maxWidth="62.0" minHeight="62.0" minWidth="62.0" mnemonicParsing="false" onAction="#tecladoNumerico" prefHeight="62.0" prefWidth="62.0">
+               <graphic>
+                  <ImageView fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../ImageButtons/Numeros%20y%20Abecedario/2.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="numero_tres" layoutX="562.0" layoutY="249.0" maxHeight="62.0" maxWidth="62.0" minHeight="62.0" minWidth="62.0" mnemonicParsing="false" onAction="#tecladoNumerico" prefHeight="62.0" prefWidth="62.0">
+               <graphic>
+                  <ImageView fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../ImageButtons/Numeros%20y%20Abecedario/3.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="numero_cuatro" layoutX="421.0" layoutY="318.0" maxHeight="62.0" maxWidth="62.0" minHeight="62.0" minWidth="62.0" mnemonicParsing="false" onAction="#tecladoNumerico" prefHeight="62.0" prefWidth="62.0">
+               <graphic>
+                  <ImageView fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../ImageButtons/Numeros%20y%20Abecedario/4.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="numero_cinco" layoutX="492.0" layoutY="318.0" maxHeight="62.0" maxWidth="62.0" minHeight="62.0" minWidth="62.0" mnemonicParsing="false" onAction="#tecladoNumerico" prefHeight="62.0" prefWidth="62.0">
+               <graphic>
+                  <ImageView fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../ImageButtons/Numeros%20y%20Abecedario/5.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="numero_seis" layoutX="562.0" layoutY="318.0" maxHeight="62.0" maxWidth="62.0" minHeight="62.0" minWidth="62.0" mnemonicParsing="false" onAction="#tecladoNumerico" prefHeight="62.0" prefWidth="62.0">
+               <graphic>
+                  <ImageView fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../ImageButtons/Numeros%20y%20Abecedario/6.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="numero_siete" layoutX="421.0" layoutY="387.0" maxHeight="62.0" maxWidth="62.0" minHeight="62.0" minWidth="62.0" mnemonicParsing="false" onAction="#tecladoNumerico" prefHeight="62.0" prefWidth="62.0">
+               <graphic>
+                  <ImageView fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../ImageButtons/Numeros%20y%20Abecedario/7.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="numero_ocho" layoutX="492.0" layoutY="387.0" maxHeight="62.0" maxWidth="62.0" minHeight="62.0" minWidth="62.0" mnemonicParsing="false" onAction="#tecladoNumerico" prefHeight="62.0" prefWidth="62.0">
+               <graphic>
+                  <ImageView fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../ImageButtons/Numeros%20y%20Abecedario/8.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="numero_nueve" layoutX="562.0" layoutY="387.0" maxHeight="62.0" maxWidth="62.0" minHeight="62.0" minWidth="62.0" mnemonicParsing="false" onAction="#tecladoNumerico" prefHeight="62.0" prefWidth="62.0">
+               <graphic>
+                  <ImageView fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../ImageButtons/Numeros%20y%20Abecedario/9.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="numero_cero" layoutX="421.0" layoutY="456.0" maxHeight="62.0" maxWidth="62.0" minHeight="62.0" minWidth="62.0" mnemonicParsing="false" onAction="#tecladoNumerico" prefHeight="62.0" prefWidth="62.0">
+               <graphic>
+                  <ImageView fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../ImageButtons/Numeros%20y%20Abecedario/0.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="boton_borrar" layoutX="492.0" layoutY="456.0" maxHeight="62.0" maxWidth="132.0" minHeight="62.0" minWidth="132.0" mnemonicParsing="false" onAction="#tecladoNumerico" prefHeight="62.0" prefWidth="132.0">
+               <graphic>
+                  <ImageView fitHeight="62.0" fitWidth="132.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../ImageButtons/Numeros%20y%20Abecedario/_Borrar.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button contentDisplay="TOP" layoutX="698.0" layoutY="545.0" mnemonicParsing="false" onAction="#continuarACapturarDatos" prefHeight="67.0" prefWidth="262.0" style="-fx-background-color: #12a612;" text="Continuar" textAlignment="CENTER" textFill="WHITE">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Button>
+            <Button layoutX="698.0" layoutY="634.0" maxHeight="67.0" maxWidth="262.0" minHeight="67.0" minWidth="262.0" mnemonicParsing="false" onAction="#salirDepositoEnEfectivo" prefHeight="67.0" prefWidth="262.0" style="-fx-background-color: #ff0000;" text="Salir" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button alignment="CENTER" contentDisplay="CENTER" layoutX="26.0" layoutY="634.0" maxHeight="67.0" maxWidth="262.0" minHeight="67.0" minWidth="262.0" mnemonicParsing="false" onAction="#salirAMenuPrincipal" prefHeight="67.0" prefWidth="262.0" style="-fx-background-color: #00098a;" text="       Menú Principal" textFill="WHITE">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="44.0" fitWidth="40.0" layoutX="58.0" layoutY="644.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../ImageButtons/Icono%20Menú%20Principal.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="numerodecuenta" alignment="CENTER" editable="false" layoutX="68.0" layoutY="304.0" maxHeight="35.0" maxWidth="316.0" minHeight="35.0" minWidth="316.0" prefHeight="35.0" prefWidth="316.0">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font></TextField>
+            <TextField fx:id="displayImporte" layoutX="148.0" layoutY="429.0" maxHeight="36.0" maxWidth="156.0" minHeight="36.0" minWidth="156.0" prefHeight="36.0" prefWidth="156.0">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
