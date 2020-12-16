@@ -11,6 +11,8 @@ import javafx.scene.layout.AnchorPane;
 
 import java.io.IOException;
 import java.net.URL;
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
 import java.util.ResourceBundle;
 
 public class Depositoenefectivo implements Initializable {
@@ -19,7 +21,17 @@ public class Depositoenefectivo implements Initializable {
     private AnchorPane pantallaDepositoEnEfectivo;
 
     @FXML
-    private TextField displayImporte, displayNumeroDeCuenta;
+    private TextField displayNumeroDeCuenta;
+
+    @FXML
+    TextField displayImporte;
+    private Object DecimalFormat;
+
+    public void setDisplayImporte(TextField displayImporte) {
+        DecimalFormat = new DecimalFormat("$#,###.00");
+        this.displayImporte = displayImporte;
+    }
+
 
     @FXML
     public Button numero_cero, numero_uno, numero_dos, numero_tres, numero_cuatro, numero_cinco, numero_seis, numero_siete, numero_ocho, numero_nueve;
@@ -29,6 +41,7 @@ public class Depositoenefectivo implements Initializable {
 
     @FXML
     private void tecladoNumerico(ActionEvent event) {
+
 
         if(event.getSource() == numero_cero){
             displayImporte.setText(displayImporte.getText() + "0");
