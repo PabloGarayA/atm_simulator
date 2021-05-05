@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane fx:id="retiroExito" maxHeight="722.0" maxWidth="1000.0" minHeight="722.0" minWidth="1000.0" prefHeight="722.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Retiroexitoso">
+   <children>
+      <ImageView fitHeight="722.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Fondos/OPERACION%20EXITOSA.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="349.0" layoutY="500.0" mnemonicParsing="false" onAction="#salirRetiroSinTarjeta" prefHeight="70.0" prefWidth="304.0" style="-fx-background-color: transparent;" />
+   </children>
+</AnchorPane>

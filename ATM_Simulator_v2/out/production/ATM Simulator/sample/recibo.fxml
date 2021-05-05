@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="pantallarecibo" maxHeight="722.0" maxWidth="1000.0" minHeight="722.0" minWidth="1000.0" prefHeight="722.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Recibo">
+   <children>
+      <ImageView fitHeight="722.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Fondos/retiro%20comprobante.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="690.0" layoutY="638.0" mnemonicParsing="false" onAction="#continuar" prefHeight="70.0" prefWidth="258.0" style="-fx-background-color: #002c43;" text="Continuar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="320.0" fitWidth="236.0" layoutX="701.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Fondos/ingresardinero.gif" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="707.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingresa el efectivo">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fill="#002c43" layoutX="24.0" layoutY="283.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cuenta:">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Text>
+      <Text fill="#002c43" layoutX="24.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Monto:">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Text>
+      <Text fill="#002c43" layoutX="24.0" layoutY="368.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Motivo: ">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="690.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="y oprime &quot;Continuar&quot;">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Label fx:id="displayNumeroDeCuenta" layoutX="125.0" layoutY="263.0" maxHeight="27.0" maxWidth="456.0" minHeight="27.0" minWidth="456.0" prefHeight="27.0" prefWidth="456.0" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="displayImporte" layoutX="125.0" layoutY="304.0" maxHeight="27.0" maxWidth="456.0" minHeight="27.0" minWidth="456.0" prefHeight="27.0" prefWidth="456.0" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="displayMotivo" layoutX="125.0" layoutY="348.0" maxHeight="27.0" maxWidth="456.0" minHeight="27.0" minWidth="456.0" prefHeight="27.0" prefWidth="456.0" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
