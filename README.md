@@ -9,7 +9,7 @@ Se quiere tener instaldo Java en local para poder hacer el build de la aplicaci�
 Una ves cargada la aplicación es requerido ejecutar el comando ^R para poder hacer el build y ejecutar la aplicación.
 
 
-::UPDATE::
+::UPDATE::<br>
 El miercoles 5 de mayo se subio la segunda versión del proyecto para la Universidad de las 3 culturas la cual presenta las siguientes mejoras:
 
 - Anteriormente se podía cerrar la pantalla de inicio, actualmente se desarrollo la funcionalidad de seguir con el proceso requerido por el usuario
